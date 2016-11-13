@@ -12,7 +12,8 @@
     "start": "ember server",
     "test": "ember test",
     "test:coverage": "cross-env COVERAGE=true ember test",
-    "test:coverage:ci": "npm test && npm run test:coverage"
+    "test:coverage:ci": "npm test && npm run test:coverage",
+    "deploy:gh-pages": "ember github-pages:commit --branch master --message "
   },
   "repository": "https://github.com/ParticleHack/website",
   "engines": {
