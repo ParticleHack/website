@@ -11,6 +11,12 @@ dependencies:
 
 test:
   override:
-    - npm run test:coverage:ci
-    - npm install codeclimate-test-reporter
-    - cat coverage/lcov.info | node_modules/.bin/codeclimate-test-reporter
+    - npm run test:ci
+    # TODO: Uncomment these commands when CodeClimate is set up
+    # - npm install codeclimate-test-reporter
+    # - cat coverage/lcov.info | node_modules/.bin/codeclimate-test-reporter
+
+general:
+  branches:
+    ignore:
+      - gh-pages

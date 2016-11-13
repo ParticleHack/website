@@ -11,8 +11,9 @@
     "build": "ember build",
     "start": "ember server",
     "test": "ember test",
+    "test:ci": "ember try:each",
     "test:coverage": "cross-env COVERAGE=true ember test",
-    "test:coverage:ci": "npm test && npm run test:coverage",
+    "test:ci:coverage": "npm run test:ci && npm run test:coverage",
     "deploy:gh-pages": "ember github-pages:commit --branch master --message "
   },
   "repository": "https://github.com/ParticleHack/website",
@@ -35,6 +36,7 @@
     "ember-cli-htmlbars": "^1.0.10",
     "ember-cli-htmlbars-inline-precompile": "^0.3.3",
     "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-mirage": "0.2.4",
     "ember-cli-postcss": "3.0.5",
     "ember-cli-qunit": "^3.0.1",
     "ember-cli-release": "^0.2.9",
