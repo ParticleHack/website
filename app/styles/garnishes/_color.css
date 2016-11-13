@@ -1,0 +1,15 @@
+.g-theme-primary-1--100 {
+  color: var(--theme-color__primary-1--100);
+}
+.g-theme-primary-1--300 {
+  color: var(--theme-color__primary-1--300);
+}
+.g-theme-primary-1--500 {
+  color: var(--theme-color__primary-1--500);
+}
+.g-theme-primary-1--700 {
+  color: var(--theme-color__primary-1--700);
+}
+.g-theme-primary-1--900 {
+  color: var(--theme-color__primary-1--900);
+}

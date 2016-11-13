@@ -1,0 +1,52 @@
+{
+  "name": "particle-hack",
+  "version": "0.0.0",
+  "description": "A directory and showcase of ways to participate in particle physics",
+  "private": true,
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "scripts": {
+    "build": "ember build",
+    "start": "ember server",
+    "test": "ember test",
+    "test:coverage": "cross-env COVERAGE=true ember test",
+    "test:coverage:ci": "npm test && npm run test:coverage"
+  },
+  "repository": "https://github.com/ParticleHack/website",
+  "engines": {
+    "node": ">= 0.12.0"
+  },
+  "author": "Brian Sipple <@Brian_Sipple>",
+  "license": "MIT",
+  "devDependencies": {
+    "broccoli-asset-rev": "^2.4.5",
+    "cross-env": "^3.1.3",
+    "ember-ajax": "^2.4.1",
+    "ember-cli": "2.9.1",
+    "ember-cli-app-version": "^2.0.0",
+    "ember-cli-babel": "^5.1.7",
+    "ember-cli-code-coverage": "0.3.8",
+    "ember-cli-dependency-checker": "^1.3.0",
+    "ember-cli-eslint": "3.0.0",
+    "ember-cli-github-pages": "0.1.2",
+    "ember-cli-htmlbars": "^1.0.10",
+    "ember-cli-htmlbars-inline-precompile": "^0.3.3",
+    "ember-cli-inject-live-reload": "^1.4.1",
+    "ember-cli-postcss": "3.0.5",
+    "ember-cli-qunit": "^3.0.1",
+    "ember-cli-release": "^0.2.9",
+    "ember-cli-sri": "^2.1.0",
+    "ember-cli-test-loader": "^1.1.0",
+    "ember-cli-uglify": "^1.2.0",
+    "ember-data": "^2.9.0",
+    "ember-export-application-global": "^1.0.5",
+    "ember-load-initializers": "^0.5.1",
+    "ember-resolver": "^2.0.3",
+    "ember-responsive": "2.0.0",
+    "loader.js": "^4.0.10",
+    "postcss-cssnext": "^2.8.0",
+    "postcss-import": "^8.2.0"
+  }
+}
