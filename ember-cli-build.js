@@ -5,7 +5,10 @@ var cssNext = require('postcss-cssnext');
 
 module.exports = function(defaults) {
   var app = new EmberApp(defaults, {
-    // Add options here
+    babel: {
+      includePolyfill: true
+    },
+
     postcssOptions: {
       compile: {
         enabled: true,
