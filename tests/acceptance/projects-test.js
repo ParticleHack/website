@@ -1,15 +1,13 @@
 import { test } from 'qunit';
 import moduleForAcceptance from 'particle-hack/tests/helpers/module-for-acceptance';
-import { hook } from 'ember-hook';
-import jQuery from 'jquery';
+// import { hook } from 'ember-hook';
+// import jQuery from 'jquery';
 
 let expected;
 let actual;
 let message;
 
-moduleForAcceptance('Acceptance | homepage', {
-
-});
+moduleForAcceptance('Acceptance | homepage');
 
 test('visiting /', async function(assert) {
   await visit('/');
