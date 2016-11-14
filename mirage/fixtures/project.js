@@ -1,20 +1,26 @@
 export default [
   {
     title: '$100 MUON DETECTOR',
-    imgURL: '',
+    imageURL: 'assets/img/muon-detector.png',
     projectLinks: [
-      { title: '', url: 'https://arxiv.org/abs/1606.01196' }
+      { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }
     ],
     twitterURL: '',
     facebookURL: '',
     githubURL: '',
-    copy: ''
+    copy: `<p>Muons, the heavier cousins of the electron are
+    pretty common particles in nature, especially from
+    cosmic rays, but also often used in the detection of
+    neutrinos and other particles. However, muon
+    detectors have traditionally been a complex piece of
+    machinery to manufacture. This design shows how to make
+    your own desktop muon detector for about 100 USD.</p>`
   },
   {
     title: 'SIMPLEST PARTICLE DETECTOR',
-    imgURL: 'assets/img/homemade-particle-detector.png',
+    imageURL: 'assets/img/homemade-particle-detector.png',
     projectLinks: [
-      { title: '', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
+      { title: 'Scientific American How-To', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
     ],
     twitterURL: '',
     facebookURL: '',
@@ -26,7 +32,7 @@ export default [
   },
   {
     title: 'CRAYFIS COSMIC RAY DETECTION',
-    imgURL: '',
+    imageURL: 'assets/img/crayfis-cosmic-ray-detection.png',
     projectLinks: [
       { title: '', url: 'https://crayfis.io/' }
     ],
@@ -40,7 +46,7 @@ export default [
   },
   {
     title: 'BUILD A CYCLOTRON',
-    imgURL: '',
+    imageURL: '',
     projectLinks: [
       { title: 'Cyclotrons.net Forum Discussion', url: 'https://www.cyclotrons.net/showthread.php/31-quot-I-want-to-build-a-cyclotron-for-my-science-fair-project-quot' },
       { title: 'The Cyclotron Kids Project', url: 'https://thecyclotronkids.org/' }
@@ -57,7 +63,7 @@ export default [
   },
   {
     title: 'BUILD A PING-PONG BALL ACCELERATOR',
-    imgURL: 'assets/img/homemade-particle-detector.png',
+    imageURL: 'assets/img/homemade-particle-detector.png',
     projectLinks: [
       { title: 'Tutorial &mdash; Instructables', url: 'https://www.instructables.com/id/How-to-make-a-macro-particle-accelerator/' },
       { title: 'Tutorial &mdash; Explore Your Universe', url: 'https://www.exploreyouruniverse.org/how-to-build-and-use-the-salad-bowl-particle-accelerator/' },
@@ -75,7 +81,7 @@ export default [
   },
   {
     title: 'KAGGLE COMPETITIONS',
-    imgURL: 'assets/img/kaggle-screenshot.png',
+    imageURL: 'assets/img/kaggle-screenshot.png',
     projectLinks: [
       { title: 'Kaggle Homepage', url: 'https://www.kaggle.com/' }
     ],
@@ -92,7 +98,7 @@ export default [
   },
   {
     title: 'PARTICLE PHYSICS PLAYGROUND',
-    imgURL: 'assets/img/cern-lhc.png',
+    imageURL: 'assets/img/cern-lhc.png',
     projectLinks: [
       { title: 'P^3 Homepage', url: 'https://particle-physics-playground.github.io/' }
     ],
@@ -107,7 +113,7 @@ export default [
   },
   {
     title: 'LHC@home',
-    imgURL: '',
+    imageURL: '',
     projectLinks: [
       { title: 'LCA@home Website', url: 'https://lhcathome.web.cern.ch/' }
     ],
@@ -123,7 +129,7 @@ export default [
   },
   {
     title: 'CLOUD CHAMBER',
-    imgURL: 'assets/img/cloud-chamber-particle-detector.png',
+    imageURL: 'assets/img/cloud-chamber-particle-detector.png',
     projectLinks: [
       { title: 'Tutorial &emdash; Instructables', url: 'https://www.instructables.com/id/Cloud-Chamber-Particle-Detector/' }
     ],

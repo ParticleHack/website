@@ -1,11 +1,14 @@
-<header>
+<header class="{{media.classNames}}">
   {{x-navbar}}
 </header>
 
-<main class="c-application__main-content
-             o-content-box--lg
-             u-relative
-             u-fill-height
-             u-fill-width">
+<main class={{concat
+  "c-application__main-content "
+  "o-content-box--lg "
+  "u-relative "
+  "u-fill-height "
+  "u-fill-width "
+  media.classNames
+}}>
   {{outlet}}
 </main>

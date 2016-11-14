@@ -4,7 +4,15 @@
 @import "./_elements.css";
 @import "./_garnishes.css";
 @import "./_object-patterns.css";
-/*@import "./_pages.css";*/  /* 📋 Uncomment when your app has pages! */
+@import "./_pages.css";  /* 📋 Uncomment when your app has pages! */
 @import "./_typography.css";
 @import "./_ui-components.css";  /* 📋 Uncomment when your app has components! */
 @import "./_utilities.css";
+
+
+body > .ember-view {
+  height: 100%;
+  width: 100%;
+  min-width: var(--min-width__application);
+}
+

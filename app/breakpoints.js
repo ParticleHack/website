@@ -1,7 +1,7 @@
 /**
  * Breakpoint threshold measurements in ems.
  */
-let THRESHOLDS = {
+const THRESHOLDS = {
   mobile: 30,
   tablet: 49.125,
   smallDesktop: 64,

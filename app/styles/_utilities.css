@@ -5,3 +5,5 @@
 @import "./utilities/_sizing.css";
 @import "./utilities/_spacing.css";
 @import "./utilities/_typography.css";
+
+.u-pointer { cursor: pointer !important; }
