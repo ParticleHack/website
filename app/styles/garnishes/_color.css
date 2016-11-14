@@ -1,15 +1,66 @@
-.g-theme-primary-1--100 {
-  color: var(--theme-color__primary-1--100);
+.g-theme-primary--lightest {
+  color: var(--theme-color__primary--lightest);
 }
-.g-theme-primary-1--300 {
-  color: var(--theme-color__primary-1--300);
+.g-theme-primary--lighter {
+  color: var(--theme-color__primary--lighter);
 }
-.g-theme-primary-1--500 {
-  color: var(--theme-color__primary-1--500);
+.g-theme-primary {
+  color: var(--theme-color__primary);
 }
-.g-theme-primary-1--700 {
-  color: var(--theme-color__primary-1--700);
+.g-theme-primary--darker {
+  color: var(--theme-color__primary--darker);
 }
-.g-theme-primary-1--900 {
-  color: var(--theme-color__primary-1--900);
+.g-theme-primary--darkest {
+  color: var(--theme-color__primary--darkest);
+}
+
+
+.g-theme-accent-1--lightest {
+  color: var(--theme-color__accent-1--lightest);
+}
+.g-theme-accent-1--lighter {
+  color: var(--theme-color__accent-1--lighter);
+}
+.g-theme-accent-1 {
+  color: var(--theme-color__accent-1);
+}
+.g-theme-accent-1--darker {
+  color: var(--theme-color__accent-1--darker);
+}
+.g-theme-accent-1--darkest {
+  color: var(--theme-color__accent-1--darkest);
+}
+
+
+.g-theme-accent-2--lightest {
+  color: var(--theme-color__accent-2--lightest);
+}
+.g-theme-accent-2--lighter {
+  color: var(--theme-color__accent-2--lighter);
+}
+.g-theme-accent-2 {
+  color: var(--theme-color__accent-2);
+}
+.g-theme-accent-2--darker {
+  color: var(--theme-color__accent-2--darker);
+}
+.g-theme-accent-2--darkest {
+  color: var(--theme-color__accent-2--darkest);
+}
+
+
+.g-theme-accent-3--lightest {
+  color: var(--theme-color__accent-3--lightest);
+}
+.g-theme-accent-3--lighter {
+  color: var(--theme-color__accent-3--lighter);
+}
+.g-theme-accent-3 {
+  color: var(--theme-color__accent-3);
+}
+.g-theme-accent-3--darker {
+  color: var(--theme-color__accent-3--darker);
+}
+.g-theme-accent-3--darkest {
+  color: var(--theme-color__accent-3--darkest);
 }
