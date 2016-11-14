@@ -3,11 +3,12 @@
 </header>
 
 <main class={{concat
-  "c-application__main-content "
-  "o-content-box--lg "
-  "u-relative "
-  "u-fill-height "
-  "u-fill-width "
+  'c-application__main-content '
+  'o-content-box--lg '
+  'u-relative '
+  'u-fill-height '
+  'u-fill-width '
+  (if media.isMobile 'u-ml0 u-mr0 u-pl0 u-pr0 ')
   media.classNames
 }}>
   {{outlet}}

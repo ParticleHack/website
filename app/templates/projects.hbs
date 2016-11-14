@@ -1,13 +1,24 @@
 <section class="p-projects u-relative u-fill-width">
 
-  <div class="p-projects__projects-grid o-flex-grid o-flex-grid--justifyCenter o-flex-grid--auto">
+  <ul class="p-projects__projects-grid o-flex-grid o-flex-grid--justifyCenter o-flex-grid--auto">
+
     {{#each model as |project|}}
       {{project-card
-        class="p-projects__project-card o-grid-cell u-mr2 u-ml2"
+        tagName="li"
+        class=(concat
+          'p-projects__project-card '
+          'o-grid-cell '
+          (if media.isMobile
+            'u-m0'
+            'u-mr2 u-ml2 u-mb2'
+          )
+        )
         project=project
         data-test="project-card"
       }}
     {{/each}}
-  </div>
+
+  </ul>
+
   {{!-- {{outlet}} --}}
 </section>

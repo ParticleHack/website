@@ -1,4 +1,5 @@
 @import "./utilities/_alignment.css";
+@import "./utilities/_display.css";
 @import "./utilities/_justification.css";
 @import "./utilities/_overflow.css";
 @import "./utilities/_positioning.css";

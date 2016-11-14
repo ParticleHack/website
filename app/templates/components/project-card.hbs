@@ -1,10 +1,21 @@
-<img
-  class="u-absolute u-fill-width u-fill-height"
-  src="{{project.imageURL}}"
-  alt="{{project.title}}">
+{{#link-to
+  'projects.project'
+  project.id
+  class="c-project-card__image-container
+         u-block
+         u-relative
+         u-fill-width
+         u-fill-height"
+}}
+  <img
+    class="c-project-card__image-container u-absolute u-block u-fill-width u-fill-height"
+    src="{{project.imageURL}}"
+    alt="{{project.title}}">
 
-<span class="c-project-card__title o-grid-cell">
-  {{project.title}}
-</span>
+  <span class="c-project-card__title o-grid-cell">
+    {{project.title}}
+  </span>
+
+{{/link-to}}
 
 {{yield}}

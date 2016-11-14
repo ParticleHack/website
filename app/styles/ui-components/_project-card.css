@@ -1,4 +1,18 @@
 .c-project-card {
-  width: 10rem;
-  height: 10rem;
+
+}
+
+.c-project-card:hover .c-project-card__image-container::after,
+.c-project-card:focus .c-project-card__image-container::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.c-project-card:hover .c-project-card__image-container::after,
+.c-project-card:focus .c-project-card__image-container::after {
+  background-color: red;
 }
