@@ -5,14 +5,7 @@
     {{#each model as |project|}}
       {{project-card
         tagName="li"
-        class=(concat
-          'p-projects__project-card '
-          'o-grid-cell '
-          (if media.isMobile
-            'u-m0'
-            'u-mr2 u-ml2 u-mb2'
-          )
-        )
+        class="p-projects__project-card o-grid-cell u-pt1 u-pr1 u-pl1"
         project=project
         data-test="project-card"
       }}

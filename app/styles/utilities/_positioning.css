@@ -1,3 +1,15 @@
 .u-relative { position: relative !important; }
 .u-absolute { position: absolute !important; }
 .u-fixed { position: fixed !important; }
+
+.u-edge-top { top: 0 !important; }
+.u-edge-right { right: 0 !important; }
+.u-edge-bottom { bottom: 0 !important; }
+.u-edge-left { left: 0 !important; }
+
+.u-fix-center {
+  top: 50% !important;
+  left: 50% !important;
+  transform: translate3d(-50%, -50%, 0) !important;
+}
+

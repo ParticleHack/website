@@ -10,9 +10,13 @@
 @import "./_utilities.css";
 
 
+body {
+  background-color: var(--color__dark--700);
+  color: var(--theme-color__primary);
+}
+
 body > .ember-view {
   height: 100%;
   width: 100%;
   min-width: var(--min-width__application);
 }
-

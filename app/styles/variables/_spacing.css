@@ -12,6 +12,8 @@
   --spacing-4: 4rem;
   --spacing-5: 8rem;
 
+  --spacing__grid-item: var(--spacing-2);
+
   /* Indentation for text relative to a containing element (hence the "ems", not "rems") */
   --indentation-1: 1.25em;
   --indentation-2: 2em;

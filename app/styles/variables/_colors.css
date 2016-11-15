@@ -79,20 +79,19 @@
   );
 
 
-  --theme-color__dark--100: hsla(249, 9%, 45%, 1.00);
-  --theme-color__dark--300: hsla(217, 22%, 35%, 1.00);
-  --theme-color__dark--500: hsla(217, 22%, 19%, 1.00);
-  --theme-color__dark--700: hsla(217, 21%, 16%, 1.00);
-  --theme-color__dark--900: hsla(220, 23%, 3%, 1.00);
+  --color__dark--100: hsla(249, 9%, 45%, 1.00);
+  --color__dark--300: hsla(217, 22%, 35%, 1.00);
+  --color__dark--500: hsla(217, 22%, 19%, 1.00);
+  --color__dark--700: hsla(217, 21%, 16%, 1.00);
+  --color__dark--900: hsla(220, 23%, 3%, 1.00);
 
-  --theme-color__gray--100: hsla(228, 15%, 94%, 1.00);
-  --theme-color__gray--300: hsla(231, 12%, 77%, 1.00);
-  --theme-color__gray--500: hsla(231, 9%, 60%, 1.00);
-  --theme-color__gray--700: hsla(230, 8%, 45%, 1.00);
-  --theme-color__gray--900: hsla(231, 10%, 26%, 1.00);
+  --color__gray--100: hsla(228, 15%, 94%, 1.00);
+  --color__gray--300: hsla(231, 12%, 77%, 1.00);
+  --color__gray--500: hsla(231, 9%, 60%, 1.00);
+  --color__gray--700: hsla(230, 8%, 45%, 1.00);
+  --color__gray--900: hsla(231, 10%, 26%, 1.00);
 
-  --theme-color__nearWhite: hsla(0, 0%, 92%, 1.00);
-
+  --color__nearWhite: hsla(0, 0%, 92%, 1.00);
 
   --color__box-shadow: hsla(0, 0%, 0%, 0.43);
 }
