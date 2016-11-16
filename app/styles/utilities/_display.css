@@ -1,0 +1,6 @@
+/**
+ * Display helpers (not uncluding `display: flex` -- see (object-patterns/_o-flex-grid.css)
+ */
+.u-block { display: block !important; }
+.u-inline { display: inline !important; }
+.u-inline-block { display: inline-block !important; }

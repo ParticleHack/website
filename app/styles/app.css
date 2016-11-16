@@ -4,7 +4,19 @@
 @import "./_elements.css";
 @import "./_garnishes.css";
 @import "./_object-patterns.css";
-/*@import "./_pages.css";*/  /* 📋 Uncomment when your app has pages! */
+@import "./_pages.css";
 @import "./_typography.css";
-@import "./_ui-components.css";  /* 📋 Uncomment when your app has components! */
+@import "./_ui-components.css";
 @import "./_utilities.css";
+
+
+body {
+  background-color: var(--color__dark--700);
+  color: var(--theme-color__primary);
+}
+
+body > .ember-view {
+  height: 100%;
+  width: 100%;
+  min-width: var(--min-width__application);
+}

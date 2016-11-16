@@ -1,5 +1,17 @@
-{{#each model as |project|}}
-  <div data-test="project-card">Title: {{project.title}}</div>
-{{/each}}
+<section class="p-projects u-relative u-fill-width">
 
-{{outlet}}
+  <ul class="p-projects__projects-grid o-flex-grid o-flex-grid--justifyCenter o-flex-grid--auto">
+
+    {{#each model as |project|}}
+      {{project-card
+        tagName="li"
+        class="p-projects__project-card o-grid-cell u-pt1 u-pr1 u-pl1"
+        project=project
+        data-test="project-card"
+      }}
+    {{/each}}
+
+  </ul>
+
+  {{!-- {{outlet}} --}}
+</section>

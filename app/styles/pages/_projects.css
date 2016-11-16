@@ -1,0 +1,26 @@
+.p-projects__projects-grid {
+  min-width: calc(var(--breakpoint-threshold--small) * 0.8);
+}
+
+.p-projects__project-card {
+  font-size: 0.825em;
+  min-width: 10rem;
+  max-width: var(--breakpoint-threshold--small);
+  margin-bottom: var(--spacing__grid-item);
+  margin-right: var(--spacing__grid-item);
+  background-color: var(--color__dark--300);
+}
+
+.media-mobile .p-projects__project-card {
+  width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: var(--spacing__grid-item);
+  margin-top: var(--spacing__grid-item);
+}
+
+
+.media-greater-than-mobile .p-projects__project-card {
+  width: calc(50% - (var(--spacing__grid-item) * 2));
+}
+

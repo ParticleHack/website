@@ -1,0 +1,46 @@
+{{#link-to
+  'projects.project'
+  project.id
+  class="c-project-card__content-wrapper
+         u-block
+         u-relative
+         u-fill-width
+         g-link-reset"
+}}
+
+  <section
+    class="c-project-card__image-section
+          u-relative
+          u-block
+          u-fill-width
+          u-z1"
+  >
+    <div class="c-project-card__image-aspect-ratio-placeholder"></div>
+    <img
+      class="c-project-card__image
+            u-absolute
+            u-edge-top
+            u-edge-left
+            u-fill-width
+            u-fill-height"
+      src="{{project.imageURL}}"
+      alt="{{project.title}}"
+    >
+  </section>
+
+
+  <section
+    class="c-project-card__meta-section
+          u-relative
+          u-fill-width
+          u-text-center"
+  >
+    <h3 class="c-project-card__title u-mt1 u-mb1 g-truncate u-inline-block">
+      {{project.title}}
+    </h3>
+  </section>
+{{/link-to}}
+
+
+
+{{yield}}

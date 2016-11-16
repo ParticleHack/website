@@ -1,4 +1,10 @@
+@import "./variables/_animation-duration.css";
+@import "./variables/_animation-easing.css";
 @import "./variables/_breakpoints.css";
 @import "./variables/_colors.css";
 @import "./variables/_dimensions.css";
 @import "./variables/_spacing.css";
+
+:root {
+  --min-width__application: var(--breakpoint-threshold--xSmall);
+}
