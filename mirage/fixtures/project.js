@@ -1,7 +1,11 @@
+import ENV from 'particle-hack/config/environment';
+
+const { rootURL } = ENV;
+
 export default [
   {
     title: '$100 Muon Detector',
-    imageURL: 'assets/img/muon-detector.png',
+    imageURL: `${rootURL}assets/img/muon-detector.png`,
     projectLinks: [
       { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }
     ],
@@ -18,7 +22,7 @@ export default [
   },
   {
     title: 'Simplest Particle Detector',
-    imageURL: 'assets/img/diy-particle-detector.png',
+    imageURL: `${rootURL}assets/img/diy-particle-detector.png`,
     projectLinks: [
       { title: 'Scientific American How-To', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
     ],
@@ -32,7 +36,7 @@ export default [
   },
   {
     title: 'Crayfis Cosmic Ray Detection',
-    imageURL: 'assets/img/crayfis-cosmic-ray-detection.png',
+    imageURL: `${rootURL}assets/img/crayfis-cosmic-ray-detection.png`,
     projectLinks: [
       { title: '', url: 'https://crayfis.io/' }
     ],
@@ -46,7 +50,7 @@ export default [
   },
   {
     title: 'Build a Cyclotron',
-    imageURL: 'assets/img/diy-cyclotron.png',
+    imageURL: `${rootURL}assets/img/diy-cyclotron.png`,
     projectLinks: [
       { title: 'Cyclotrons.net Forum Discussion', url: 'https://www.cyclotrons.net/showthread.php/31-quot-I-want-to-build-a-cyclotron-for-my-science-fair-project-quot' },
       { title: 'The Cyclotron Kids Project', url: 'https://thecyclotronkids.org/' }
@@ -63,7 +67,7 @@ export default [
   },
   {
     title: 'Ping-pong Ball Accelerator',
-    imageURL: 'assets/img/diy-particle-detector.png',
+    imageURL: `${rootURL}assets/img/diy-particle-detector.png`,
     projectLinks: [
       { title: 'Tutorial &mdash; Instructables', url: 'https://www.instructables.com/id/How-to-make-a-macro-particle-accelerator/' },
       { title: 'Tutorial &mdash; Explore Your Universe', url: 'https://www.exploreyouruniverse.org/how-to-build-and-use-the-salad-bowl-particle-accelerator/' },
@@ -81,7 +85,7 @@ export default [
   },
   {
     title: 'Kaggle Competitions',
-    imageURL: 'assets/img/kaggle-screenshot.png',
+    imageURL: `${rootURL}assets/img/kaggle-screenshot.png`,
     projectLinks: [
       { title: 'Kaggle Homepage', url: 'https://www.kaggle.com/' }
     ],
@@ -98,7 +102,7 @@ export default [
   },
   {
     title: 'Particle Physics Playground',
-    imageURL: 'assets/img/cern-lhc.png',
+    imageURL: `${rootURL}assets/img/cern-lhc.png`,
     projectLinks: [
       { title: 'P^3 Homepage', url: 'https://particle-physics-playground.github.io/' }
     ],
@@ -113,7 +117,7 @@ export default [
   },
   {
     title: 'Lhc@home',
-    imageURL: 'assets/img/lhc-at-home.png',
+    imageURL: `${rootURL}assets/img/lhc-at-home.png`,
     projectLinks: [
       { title: 'LCA@home Website', url: 'https://lhcathome.web.cern.ch/' }
     ],
