@@ -1,11 +1,13 @@
 <section class="p-project u-relative u-fill-width">
 
   <header>
-    <h2 class="u-text-center">{{model.title}}</h2>
+    <img src="{{model.imageURL}}" alt="{{model.title}}">
   </header>
 
   <section class="p-project__body">
-    {{htmlSafe model.copy}}
 
+    <h2 class="u-text-center">{{model.title}}</h2>
+
+    {{htmlSafe model.copy}}
   </section>
 </section>
