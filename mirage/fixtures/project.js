@@ -1,6 +1,6 @@
 export default [
   {
-    title: '$100 muon detector',
+    title: '$100 Muon Detector',
     imageURL: 'assets/img/muon-detector.png',
     projectLinks: [
       { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }

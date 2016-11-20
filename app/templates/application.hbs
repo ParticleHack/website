@@ -1,6 +1,4 @@
-<header class="{{media.classNames}}">
-  {{x-navbar}}
-</header>
+{{x-navbar}}
 
 <main class={{concat
   'c-application__main-content '
@@ -11,5 +9,7 @@
   (if media.isMobile 'u-ml0 u-mr0 u-pl0 u-pr0 ')
   media.classNames
 }}>
-  {{outlet}}
+
+  {{liquid-outlet}}
+
 </main>
