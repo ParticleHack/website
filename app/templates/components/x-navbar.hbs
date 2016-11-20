@@ -1,5 +1,20 @@
-<h1 class="c-page__headline g-primary u-text-center">
-  Particle Hack
-</h1>
+<div class="o-flex-grid o-flex-grid--center o-flex-grid--auto">
+
+  {{#link-to 'application' class="o-grid-cell g-link-reset"}}
+    <h1 class="c-page__headline g-primary u-text-center">
+      Particle Hack
+    </h1>
+  {{/link-to}}
+
+  <nav class="o-grid-cell u-ml-auto">
+    <ul class="g-list-reset">
+      <li>
+        {{#link-to 'about' class="g-link-reset"}}ABOUT{{/link-to}}
+      </li>
+    </ul>
+  </nav>
+
+</div>
+
 
 {{yield}}
