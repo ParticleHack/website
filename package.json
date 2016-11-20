@@ -14,7 +14,7 @@
     "test:ci": "ember try:each",
     "test:coverage": "cross-env COVERAGE=true ember test",
     "test:ci:coverage": "npm run test:ci && npm run test:coverage",
-    "deploy:gh-pages": "ember github-pages:commit --message "
+    "deploy:gh-pages": "ember github-pages:commit --message \"Deploy gh-pages from commit $(git rev-parse HEAD)\"; git push; git checkout -"
   },
   "repository": "https://github.com/ParticleHack/website",
   "engines": {
