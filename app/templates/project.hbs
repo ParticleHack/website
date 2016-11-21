@@ -12,12 +12,11 @@
       <h2 class="o-grid-cell u-mr-auto u-pr2">{{model.title}}</h2>
 
       <ul class="o-grid-cell">
-        <li>
-          <a href="{{projectURL}}" class="c-link-badge g-link-reset g-bg-accent-2" target="_blank">Project Homepage</a>
-        </li>
+        {{#each model.projectLinks as |projectLink|}}
+          {{link-badge tagName="li" class="g-bg-accent-2 g-nearBlack" url=projectLink.url title=projectLink.title}}
+        {{/each}}
       </ul>
     </div>
-
 
   </header>
 

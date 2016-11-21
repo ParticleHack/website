@@ -144,3 +144,12 @@
   background-color: var(--theme-color__accent-3--darkest);
 }
 
+
+/* -------------- COMMON HELPERS -------------- */
+.g-nearWhite {
+  color: var(--color__nearWhite);
+}
+
+.g-nearBlack {
+  color: var(--color__nearBlack);
+}

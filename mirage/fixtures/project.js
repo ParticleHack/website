@@ -6,10 +6,9 @@ export default [
   {
     title: '$100 Muon Detector',
     imageURL: `${rootURL}assets/img/muon-detector.png`,
-    // projectLinks: [
-    //   { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }
-    // ],
-    projectURL: 'https://arxiv.org/abs/1606.01196',
+    projectLinks: [
+      { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }
+    ],
     twitterURL: '',
     facebookURL: '',
     githubURL: '',
@@ -24,10 +23,9 @@ export default [
   {
     title: 'Simplest Particle Detector',
     imageURL: `${rootURL}assets/img/diy-particle-detector.png`,
-    // projectLinks: [
-    //   { title: 'Scientific American How-To', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
-    // ],
-    projectURL: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/',
+    projectLinks: [
+      { title: 'Tutorial Homepage', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
+    ],
     twitterURL: '',
     facebookURL: '',
     githubURL: '',
