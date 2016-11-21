@@ -15,7 +15,7 @@
   content: '';
   box-shadow: 0 0 0.25em 0.125em var(--theme-color__accent-1);
   opacity: 0;
-  transition: opacity var(--duration__toggle-opacity) var(--easing__ease-in-sine);
+  transition: opacity var(--duration__color-shift) var(--easing__ease-in-sine);
 }
 
 .c-project-card .c-project-card__image-section:focus:after,
@@ -24,15 +24,6 @@
   transition-timing-function: var(--easing__ease-out-cubic);
 }
 
-
-.c-project-card__image-aspect-ratio-placeholder {
-  display: block;
-  padding-bottom: 56.25%;
-}
-
-.c-project-card__image {
-  object-fit: cover;
-}
 
 .c-project-card .c-project-card__meta-section {
   /*padding-top: 75%;*/

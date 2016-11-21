@@ -1,13 +1,27 @@
 <section class="p-project u-relative u-fill-width">
 
-  <header>
-    <img src="{{model.imageURL}}" alt="{{model.title}}">
+
+  <header class="p-project__header">
+
+    <div class="u-relative">
+      <div class="o-aspect-ratio-placeholder--details-header"></div>
+      <img class="u-absolute u-edge-top u-edge-bottom u-fill u-fit-cover" src="{{model.imageURL}}" alt="{{model.title}}">
+    </div>
+
+    <div class="o-flex-grid o-flex-grid--auto o-flex-grid--wrap o-flex-grid--center u-pl3 u-pr3 u-pl2 u-pr2">
+      <h2 class="o-grid-cell u-mr-auto u-pr2">{{model.title}}</h2>
+
+      <ul class="o-grid-cell">
+        <li>
+          <a href="{{projectURL}}" class="c-link-badge g-link-reset g-bg-accent-2" target="_blank">Project Homepage</a>
+        </li>
+      </ul>
+    </div>
+
+
   </header>
 
-  <section class="p-project__body">
-
-    <h2 class="u-text-center">{{model.title}}</h2>
-
+  <section class="p-project__body o-content-box--lg">
     {{htmlSafe model.copy}}
   </section>
 </section>

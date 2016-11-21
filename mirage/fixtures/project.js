@@ -6,9 +6,10 @@ export default [
   {
     title: '$100 Muon Detector',
     imageURL: `${rootURL}assets/img/muon-detector.png`,
-    projectLinks: [
-      { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }
-    ],
+    // projectLinks: [
+    //   { title: 'Cornell Project Page', url: 'https://arxiv.org/abs/1606.01196' }
+    // ],
+    projectURL: 'https://arxiv.org/abs/1606.01196',
     twitterURL: '',
     facebookURL: '',
     githubURL: '',
@@ -23,16 +24,17 @@ export default [
   {
     title: 'Simplest Particle Detector',
     imageURL: `${rootURL}assets/img/diy-particle-detector.png`,
-    projectLinks: [
-      { title: 'Scientific American How-To', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
-    ],
+    // projectLinks: [
+    //   { title: 'Scientific American How-To', url: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/' }
+    // ],
+    projectURL: 'https://blogs.scientificamerican.com/critical-opalescence/how-to-build-the-worlds-simplest-particle-detector/',
     twitterURL: '',
     facebookURL: '',
     githubURL: '',
     copy: `<p>If this is your first time building a particle detector of any kind, you might want to try a simple cloud chamber,
     made using readily available equipment. It will show traces of passing cosmic rays, or decay particles from radioactive sources,
     as think white streaks of cloud inside the chamber. Then, when you have the idea, you can work your way up to a more
-    <a href="https://www.particlehack.org/portfolio/cloud-chamber/" target="_blank">advanced cloud chamber</a> project.</p>`
+    <a class="c-markup-link" href="https://www.particlehack.org/portfolio/cloud-chamber/" target="_blank">advanced cloud chamber</a> project.</p>`
   },
   {
     title: 'Crayfis Cosmic Ray Detection',

@@ -7,4 +7,5 @@
 
 :root {
   --min-width__application: var(--breakpoint-threshold--xSmall);
+  --max-width__application: var(--breakpoint-threshold--xLarge);
 }

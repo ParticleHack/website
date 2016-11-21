@@ -1,17 +1,12 @@
 @import "./utilities/_alignment.css";
 @import "./utilities/_display.css";
 @import "./utilities/_justification.css";
+@import "./utilities/_object-fit.css";
 @import "./utilities/_overflow.css";
 @import "./utilities/_positioning.css";
 @import "./utilities/_sizing.css";
 @import "./utilities/_spacing.css";
 @import "./utilities/_typography.css";
+@import "./utilities/_z-index.css";
 
 .u-pointer { cursor: pointer !important; }
-
-.u-z0 { z-index: 0 !important; }
-.u-z1 { z-index: 1 !important; }
-.u-z2 { z-index: 2 !important; }
-.u-z3 { z-index: 3 !important; }
-.u-z4 { z-index: 4 !important; }
-.u-z5 { z-index: 5 !important; }

@@ -19,4 +19,5 @@ body > .ember-view {
   height: 100%;
   width: 100%;
   min-width: var(--min-width__application);
+  max-width: var(--max-width__application);
 }
