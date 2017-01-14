@@ -1,4 +1,5 @@
 import DS from 'ember-data';
+import { notEmpty } from 'ember-computed';
 
 const { Model, attr } = DS;
 
@@ -6,10 +7,10 @@ export default Model.extend({
   title: attr('string'),
   imageURL: attr('string'),
   projectLinks: attr('array'),
-  twitterURL: attr('string'),
-  facebookURL: attr('string'),
-  githubURL: attr('string'),
+  socialLinks: attr('array'),
 
   // 📋 TODO: HTMLSafe?
-  copy: attr('string')
+  copy: attr('string'),
+
+  hasSocialLinks: notEmpty('socialLinks')
 });

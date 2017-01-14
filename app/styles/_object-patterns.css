@@ -1,4 +1,5 @@
 @import "./object-patterns/_aspect-ratio-placeholders.css";
 @import "./object-patterns/_content-box.css";
-@import "./object-patterns/_flex-grid.css";
+@import "./object-patterns/_grid.css";
+/*@import "./object-patterns/_flex-grid.css";*/
 @import "./object-patterns/_tap-target.css";

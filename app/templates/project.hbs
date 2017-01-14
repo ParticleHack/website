@@ -1,14 +1,15 @@
-<section class="p-project u-relative u-fill-width">
+<article class="p-project u-relative u-fill-width">
 
+  {{!-- Image container --}}
+  <header class="p-project__image-header u-relative u-mb2">
+    <div class="o-aspect-ratio-placeholder--details-header"></div>
+    <img class="u-absolute u-edge-top u-edge-bottom u-fill u-fit-cover" src="{{model.imageURL}}" alt="{{model.title}}">
+  </header>
 
-  <header class="p-project__header">
+  <section class="p-project__body-content u-ml-auto u-mr-auto u-pl3 u-pr3">
 
-    <div class="u-relative">
-      <div class="o-aspect-ratio-placeholder--details-header"></div>
-      <img class="u-absolute u-edge-top u-edge-bottom u-fill u-fit-cover" src="{{model.imageURL}}" alt="{{model.title}}">
-    </div>
-
-    <div class="o-flex-grid o-flex-grid--auto o-flex-grid--wrap o-flex-grid--center u-pl3 u-pr3 u-pl2 u-pr2">
+    {{!-- Header Title Text--}}
+    <header class="o-grid o-grid--align-middle">
       <h2 class="o-grid-cell u-mr-auto u-pr2">{{model.title}}</h2>
 
       <ul class="o-grid-cell">
@@ -16,11 +17,22 @@
           {{link-badge tagName="li" class="g-bg-accent-2 g-nearBlack" url=projectLink.url title=projectLink.title}}
         {{/each}}
       </ul>
-    </div>
+    </header>
 
-  </header>
+    <section>
+      {{htmlSafe model.copy}}
+    </section>
 
-  <section class="p-project__body o-content-box--lg">
-    {{htmlSafe model.copy}}
+    <section>
+      {{#if model.socialLinks.length}}
+        {{#each model.socialLinks as |link|}}
+          <a href={{link.url}} target="_blank" aria-label={{link.label}}>
+            {{svg-icon fileName=link.iconFileName}}
+          </a>
+        {{/each}}
+      {{/if}}
+    </section>
+
   </section>
-</section>
+
+</article>

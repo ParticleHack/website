@@ -1,15 +1,18 @@
 <section class="p-projects u-relative u-fill-width o-content-box--lg">
 
-  <ul class="p-projects__projects-grid o-flex-grid o-flex-grid--justifyCenter o-flex-grid--auto">
+  <ul class="p-projects__projects-grid
+             o-grid
+             o-grid--align-center
+             o-grid--guttered
+             o-grid--fill">
 
-    {{#each model as |project|}}
+    {{#each model as |project idx|}}
       {{project-card
         tagName="li"
         class="p-projects__project-card o-grid-cell u-pt1 u-pr1 u-pl1"
         project=project
       }}
     {{/each}}
-
   </ul>
 
 </section>

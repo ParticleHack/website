@@ -3,12 +3,11 @@
 <main class={{concat
   'c-application__main-content '
   'u-relative '
-  'u-fill-height '
-  'u-fill-width '
+  'u-fill '
   (if media.isMobile 'u-ml0 u-mr0 u-pl0 u-pr0 ')
   media.classNames
 }}>
 
-  {{liquid-outlet class="u-fill-height"}}
+  {{liquid-outlet class="u-fill-height u-overflow-auto"}}
 
 </main>
