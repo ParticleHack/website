@@ -1,2 +1,6 @@
-.c-navbar {
+.c-navbar .c-navbar__nav-link:hover {
+  color: color(
+    var(--color__nav-link)
+    shade(30%)
+  );
 }

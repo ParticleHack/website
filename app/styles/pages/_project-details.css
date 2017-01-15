@@ -1,0 +1,37 @@
+.p-project .p-project__link-badge {
+  position: relative;
+  color: var(--color__nearBlack);
+  background-color: var(--theme-color__accent-2);
+  transition-property: background-color;
+  outline: none;
+}
+
+.p-project .p-project__link-badge:focus,
+.p-project .p-project__link-badge:hover {
+  background-color: color(
+    var(--theme-color__accent-2)
+    tint(30%)
+  );
+}
+
+.p-project .p-project__link-badge::after {
+  content: '';
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  box-shadow: var(--box-shadow__item-outline);
+
+  /* TODO: Encapsulate this as a pattern and then share with the project card */
+  transition: opacity var(--duration__color-shift) var(--easing__ease-in-sine);
+}
+
+
+.p-project .p-project__link-badge:focus::after,
+.p-project .p-project__link-badge:hover::after {
+  transition-timing-function: var(--easing__ease-out-cubic);
+  opacity: 1;
+}
+

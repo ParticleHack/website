@@ -2,9 +2,9 @@
  * Container for content block's within our application's
  * content frame.
  */
-.o-framed-content {
+.o-article-frame {
   max-width: calc(
-    var(--max-width__framed-content) +
+    var(--max-width__article-frame) +
     var(--spacing-3) * 2
   );
 

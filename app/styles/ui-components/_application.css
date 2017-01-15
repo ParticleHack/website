@@ -1,6 +1,6 @@
 .c-application__navbar {
   height: var(--height__navbar);
-  box-shadow: 0 .125rem .8rem var(--theme-color__primary--darker);
+  box-shadow: 0 .125rem .8rem var(--theme-color__accent-1);
   background-color: var(--background-color__navbar);
 }
 

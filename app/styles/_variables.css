@@ -10,10 +10,20 @@
   --max-width__application: var(--breakpoint-threshold--xLarge);
 
   /* Max width for "framed content" (i.e. non-presentationl elements of the page) */
-  --max-width__framed-content: var(--breakpoint-threshold--medium);
+  --max-width__article-frame: var(--breakpoint-threshold--medium);
 
   --height__navbar: 4.2rem;
 
   --background-color__body: var(--color__dark--700);
   --background-color__navbar: var(--background-color__body);
+
+  --color__font--primary: var(--theme-color__primary);
+  --color__nav-link: var(--color__font--primary);
+
+  --color--markup-link: var(--theme-color__accent-2);
+  --color--markup-link-darkened: var(--theme-color__accent-2--darker);
+
+  --font-size__headline: 2.8rem;
+
+  --box-shadow__item-outline: 0 0 0.25em 0.155em var(--theme-color__accent-1);
 }

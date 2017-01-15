@@ -32,7 +32,7 @@ export default [
     copy: `<p>If this is your first time building a particle detector of any kind, you might want to try a simple cloud chamber,
     made using readily available equipment. It will show traces of passing cosmic rays, or decay particles from radioactive sources,
     as think white streaks of cloud inside the chamber. Then, when you have the idea, you can work your way up to a more
-    <a class="c-markup-link" href="https://www.particlehack.org/portfolio/cloud-chamber/" target="_blank">advanced cloud chamber</a> project.</p>`
+    <a class="c-markup-link o-color-shifting o-underline-shifting" href="https://www.particlehack.org/portfolio/cloud-chamber/" target="_blank">advanced cloud chamber</a> project.</p>`
   },
   {
     title: 'Crayfis Cosmic Ray Detection',

@@ -14,15 +14,15 @@
 
       <ul class="o-grid-cell g-list-reset">
         {{#each model.projectLinks as |projectLink|}}
-          <li class="g-bg-accent-2 g-nearBlack">
-            {{link-badge url=projectLink.url title=projectLink.title}}
+          <li>
+            {{link-badge class="p-project__link-badge o-color-shifting" url=projectLink.url title=projectLink.title}}
           </li>
         {{/each}}
       </ul>
     </header>
 
     <section>
-      {{htmlSafe model.copy}}
+      {{html-safe model.copy}}
     </section>
 
     <section>
