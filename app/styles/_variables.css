@@ -24,6 +24,7 @@
   --color--markup-link-darkened: var(--theme-color__accent-2--darker);
 
   --font-size__headline: 2.8rem;
+  /*--font-family__headings: 'futura pt', Futura;*/
 
   --box-shadow__item-outline: 0 0 0.25em 0.155em var(--theme-color__accent-1);
 }

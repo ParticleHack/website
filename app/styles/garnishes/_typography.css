@@ -3,3 +3,18 @@
   text-overflow: ellipsis;
   overflow: hidden;
 }
+
+.g-alt-font {
+  font-family: var(--font-family--alternate);
+}
+
+.g-small-caps {
+  font-size: 0.666em;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.g-caps {
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
