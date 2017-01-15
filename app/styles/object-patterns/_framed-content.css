@@ -1,0 +1,13 @@
+/**
+ * Container for content block's within our application's
+ * content frame.
+ */
+.o-framed-content {
+  max-width: calc(
+    var(--max-width__framed-content) +
+    var(--spacing-3) * 2
+  );
+
+  margin-left: auto;
+  margin-right: auto;
+}

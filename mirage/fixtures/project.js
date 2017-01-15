@@ -121,7 +121,7 @@ export default [
     title: 'Lhc@home',
     imageURL: `${rootURL}assets/img/lhc-at-home.png`,
     projectLinks: [
-      { title: 'LCA@home Website', url: 'https://lhcathome.web.cern.ch/' }
+      { title: 'LHC@home Website', url: 'https://lhcathome.web.cern.ch/' }
     ],
     socialLinks: [
 

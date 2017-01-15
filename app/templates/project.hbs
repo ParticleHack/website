@@ -6,15 +6,17 @@
     <img class="u-absolute u-edge-top u-edge-bottom u-fill u-fit-cover" src="{{model.imageURL}}" alt="{{model.title}}">
   </header>
 
-  <section class="p-project__body-content u-ml-auto u-mr-auto u-pl3 u-pr3">
+  <section class="p-project__body-content o-framed-content u-pl3 u-pr3">
 
     {{!-- Header Title Text--}}
     <header class="o-grid o-grid--align-middle">
       <h2 class="o-grid-cell u-mr-auto u-pr2">{{model.title}}</h2>
 
-      <ul class="o-grid-cell">
+      <ul class="o-grid-cell g-list-reset">
         {{#each model.projectLinks as |projectLink|}}
-          {{link-badge tagName="li" class="g-bg-accent-2 g-nearBlack" url=projectLink.url title=projectLink.title}}
+          <li class="g-bg-accent-2 g-nearBlack">
+            {{link-badge url=projectLink.url title=projectLink.title}}
+          </li>
         {{/each}}
       </ul>
     </header>

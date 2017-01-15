@@ -9,5 +9,11 @@
   --min-width__application: var(--breakpoint-threshold--xSmall);
   --max-width__application: var(--breakpoint-threshold--xLarge);
 
-  --max-width__article-copy: var(--breakpoint-threshold--medium);
+  /* Max width for "framed content" (i.e. non-presentationl elements of the page) */
+  --max-width__framed-content: var(--breakpoint-threshold--medium);
+
+  --height__navbar: 4.2rem;
+
+  --background-color__body: var(--color__dark--700);
+  --background-color__navbar: var(--background-color__body);
 }

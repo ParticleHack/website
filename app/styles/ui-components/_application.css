@@ -1,7 +1,9 @@
 .c-application__navbar {
-
+  height: var(--height__navbar);
+  box-shadow: 0 .125rem .8rem var(--theme-color__primary--darker);
+  background-color: var(--background-color__navbar);
 }
 
 .c-application__main-content {
-  /*height: 100%;*/
+  padding-top: var(--height__navbar);
 }

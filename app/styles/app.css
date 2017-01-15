@@ -11,7 +11,7 @@
 
 
 body {
-  background-color: var(--color__dark--700);
+  background-color: var(--background-color__body);
   color: var(--theme-color__primary);
 }
 

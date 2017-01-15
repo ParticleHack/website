@@ -1,6 +1,0 @@
-.p-project .p-project__body-content {
-  max-width: calc(
-    var(--max-width__article-copy) +
-    var(--spacing-3) * 2
-  );
-}
