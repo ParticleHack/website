@@ -37,8 +37,8 @@ export default Component.extend({
   height: '1em',
   xmlns: 'http://www.w3.org/2000/svg',
   xmlnsXlink: 'http://www.w3.org/1999/xlink',
-  stroke: null,
-  fill: null,
+  stroke: 'none',
+  fill: 'none',
   'stroke-width': '0.19em',
 
   fileName: '',

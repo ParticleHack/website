@@ -17,6 +17,15 @@ module.exports = function(defaults) {
           { module: cssNext }
         ]
       }
+    },
+
+    svgstore: {
+      excludeSourceFiles: true, // exclude all processed source files
+      files: {
+        sourceDirs: [ 'public/assets/icons' ],
+        outputFile: '/assets/icons.svg',
+        excludeSourceFiles: true // exclude source files only for this master SVG
+      }
     }
   });
 

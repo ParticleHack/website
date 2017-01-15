@@ -1,7 +1,18 @@
 import Ember from 'ember';
 
 export default Ember.Component.extend({
-  classNames: ['c-link-badge', 'o-content-box', 'o-flex-grid'],
+  tagName: 'a',
+  attributeBindings: ['url:href', 'target'],
+
+  classNames: [
+    'c-link-badge',
+    'u-p-inset-squish',
+    'o-grid',
+    'o-grid--align-middle',
+    'g-link-reset'
+  ],
+
+  target: '_blank',
 
   url: '',
   title: ''
