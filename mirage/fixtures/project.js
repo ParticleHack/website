@@ -90,14 +90,14 @@ export default [
       { title: 'Kaggle Homepage', url: 'https://www.kaggle.com/' }
     ],
     socialLinks: [
-      { label: 'Kaggle on Twitter', iconFileName: 'icon-twitter', url: 'https://www.twitter.com/kaggle' },
-      { label: 'Kaggle on Facebook', iconFileName: 'icon-facebook', url: 'https://www.twitter.com/kaggle' },
-      { label: 'Kaggle on GitHub', iconFileName: 'icon-github', url: 'https://github.com/Kaggle' },
+      { label: 'Kaggle on Twitter', iconFileName: 'icon-twitter-logo', url: 'https://www.twitter.com/kaggle' },
+      { label: 'Kaggle on Facebook', iconFileName: 'icon-facebook-logo-f', url: 'https://www.twitter.com/kaggle' },
+      { label: 'Kaggle on GitHub', iconFileName: 'icon-github-logo-mark', url: 'https://github.com/Kaggle' },
     ],
     copy: `<p>For the more advanced coders among you, Kaggle offers occasional particle-physics-themed
     challenges in which you can win money for the best solutions to the problems on offer.
-    Past challenges have included <a href="https://www.kaggle.com/c/higgs-boson">using ATLAS data to find the Higgs Boson</a>
-    and <a href="https://www.kaggle.com/c/flavours-of-physics"> using LHCb data to look for signs of new physics</a>.
+    Past challenges have included <a class="c-markup-link o-color-shifting o-underline-shifting" href="https://www.kaggle.com/c/higgs-boson">using ATLAS data to find the Higgs Boson</a>
+    and <a class="c-markup-link o-color-shifting o-underline-shifting" href="https://www.kaggle.com/c/flavours-of-physics"> using LHCb data to look for signs of new physics</a>.
     Most winning solutions tend to use convolutional neural networks
     plus a combination of other ideas, but you often don’t need to know much of the physics involved.
     Learning it is just a fun bonus!</p>`
@@ -109,7 +109,7 @@ export default [
       { title: 'P^3 Homepage', url: 'https://particle-physics-playground.github.io/' }
     ],
     socialLinks: [
-      { label: 'Particle Physics Playground on GitHub', iconFileName: 'icon-github', url: 'https://github.com/particle-physics-playground/playground' },
+      { label: 'Particle Physics Playground on GitHub', iconFileName: 'icon-github-logo-mark', url: 'https://github.com/particle-physics-playground/playground' },
     ],
     copy: `<p>Want to get your hands on real particle physics data from the
     Large Hadron Collider? Here is a place you can go to get the data,

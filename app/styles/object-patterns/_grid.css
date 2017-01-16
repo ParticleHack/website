@@ -147,7 +147,7 @@
 .o-grid.o-grid--guttered-sm {
   margin: 0 calc(-0.5 * var(--spacing-1));
 }
-.o-grid.o-grid--guttered-sm> .o-grid-cell {
+.o-grid.o-grid--guttered-sm > .o-grid-cell {
   padding: 0 calc(0.5 * var(--spacing-1));
 }
 

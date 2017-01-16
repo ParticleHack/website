@@ -35,3 +35,13 @@
   opacity: 1;
 }
 
+.p-project .p-project__social-link {
+  color: var(--color__gray--300);
+}
+
+.p-project .p-project__social-link:hover {
+  color: color(
+    var(--color__gray--300)
+    shade(30%)
+  );
+}

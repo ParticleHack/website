@@ -21,4 +21,6 @@ body > .ember-view {
   width: 100%;
   min-width: var(--min-width__application);
   max-width: var(--max-width__application);
+  margin-left: auto;
+  margin-right: auto;
 }

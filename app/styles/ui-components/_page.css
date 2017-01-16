@@ -1,0 +1,9 @@
+.c-page {
+  overflow-y: scroll;
+}
+
+.c-page .c-page__divider-dots {
+  width: 3rem;
+  height: 3rem;
+  margin-left: calc(50% - 3rem);
+}

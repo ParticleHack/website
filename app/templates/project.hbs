@@ -1,7 +1,7 @@
-<article class="p-project u-relative u-fill-width">
+<article class="p-project c-page u-relative u-fill-width">
 
   {{!-- Image container --}}
-  <header class="p-project__image-header u-relative u-mb2">
+  <header class="p-project__image-header u-relative u-mb3">
     <div class="o-aspect-ratio-placeholder--details-header"></div>
     <img class="u-absolute u-edge-top u-edge-bottom u-fill u-fit-cover" src="{{model.imageURL}}" alt="{{model.title}}">
   </header>
@@ -9,7 +9,7 @@
   <section class="p-project__body-content o-article-frame u-pl3 u-pr3">
 
     {{!-- Header Title Text--}}
-    <header class="o-grid o-grid--align-middle">
+    <header class="o-grid o-grid--align-middle u-mb3">
       <h2 class="o-grid-cell u-mr-auto u-pr2">{{model.title}}</h2>
 
       <ul
@@ -20,27 +20,46 @@
         }}"
       >
         {{#each model.projectLinks as |projectLink|}}
-          <li class="{{if (gt model.projectLinks.length 2) 'o-grid-cell u-mb1'}}">
-            {{link-badge class="p-project__link-badge o-color-shifting u-inline-block" url=projectLink.url title=projectLink.title}}
+          <li class="{{if (gt model.projectLinks.length 2) 'o-grid-cell u-mb1 u-flex'}}">
+            {{link-badge class="p-project__link-badge o-color-shifting g-font-700" url=projectLink.url title=projectLink.title}}
           </li>
         {{/each}}
       </ul>
     </header>
 
-    <section>
+    <section class="u-mb3">
       {{html-safe model.copy}}
     </section>
 
-    <section>
-      {{#if model.socialLinks.length}}
-        {{#each model.socialLinks as |link|}}
-          <a href={{link.url}} target="_blank" aria-label={{link.label}}>
-            {{svg-icon fileName=link.iconFileName}}
-          </a>
-        {{/each}}
-      {{/if}}
-    </section>
+    {{#if model.socialLinks.length}}
 
+      <section class="u-mb3">
+        {{divider-dots class="c-page__divider-dots"}}
+      </section>
+
+      <footer class="u-pb4">
+        <h3 class="u-mb2">Social Links</h3>
+
+        <ul class="o-grid o-grid--align-middle o-grid--guttered-lg g-list-reset">
+          {{#each model.socialLinks as |link|}}
+            <li class="o-grid-cell">
+              <a class="p-project__social-link
+                        o-tap-target--md
+                        o-grid
+                        o-grid--align-center
+                        o-grid--align-middle
+                        o-color-shifting"
+                  href={{link.url}}
+                  target="_blank"
+                  aria-label={{link.label}}
+              >
+                {{svg-icon fileName=link.iconFileName fill="currentColor" width="100%" height="100%"}}
+              </a>
+            </li>
+          {{/each}}
+        </ul>
+      </footer>
+
+    {{/if}}
   </section>
-
 </article>
