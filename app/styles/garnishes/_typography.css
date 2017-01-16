@@ -4,17 +4,23 @@
   overflow: hidden;
 }
 
-.g-alt-font {
-  font-family: var(--font-family--alternate);
-}
-
 .g-small-caps {
   font-size: 0.666em;
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
 
+.g-font-alt {
+  font-family: var(--font-family__alternate);
+}
+
 .g-caps {
   text-transform: uppercase;
   letter-spacing: 0.1em;
 }
+
+.g-font-100 { font-weight: 100 !important; }
+.g-font-300 { font-weight: 300 !important; }
+.g-font-400 { font-weight: 400 !important; }
+.g-font-700 { font-weight: 700 !important; }
+

@@ -1,12 +1,9 @@
 /**
- * SAVVY >>> SIZING
- *
- *
  * Utility classes for broadly sizing an element ("broadly" meaning
  * general influences such as "full height" or "full width")
  */
 
-.u-full-bleed { height: 100vh; }
+.u-full-bleed { height: 100vh !important; }
 .u-full-stretch { width: 100vw !important; }
 
 .u-fit-width { max-width: 100% !important; }

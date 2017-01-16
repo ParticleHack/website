@@ -12,10 +12,16 @@
     <header class="o-grid o-grid--align-middle">
       <h2 class="o-grid-cell u-mr-auto u-pr2">{{model.title}}</h2>
 
-      <ul class="o-grid-cell g-list-reset">
+      <ul
+        class="{{concat
+          'o-grid-cell '
+          'g-list-reset '
+          (if (gt model.projectLinks.length 2) 'o-grid-cell-12 o-grid o-grid--fill')
+        }}"
+      >
         {{#each model.projectLinks as |projectLink|}}
-          <li>
-            {{link-badge class="p-project__link-badge o-color-shifting" url=projectLink.url title=projectLink.title}}
+          <li class="{{if (gt model.projectLinks.length 2) 'o-grid-cell u-mb1'}}">
+            {{link-badge class="p-project__link-badge o-color-shifting u-inline-block" url=projectLink.url title=projectLink.title}}
           </li>
         {{/each}}
       </ul>

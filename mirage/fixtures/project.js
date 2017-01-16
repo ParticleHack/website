@@ -35,17 +35,17 @@ export default [
     <a class="c-markup-link o-color-shifting o-underline-shifting" href="https://www.particlehack.org/portfolio/cloud-chamber/" target="_blank">advanced cloud chamber</a> project.</p>`
   },
   {
-    title: 'Crayfis Cosmic Ray Detection',
+    title: 'CRAYFIS Cosmic Ray Detection',
     imageURL: `${rootURL}assets/img/crayfis-cosmic-ray-detection.png`,
     projectLinks: [
-      { title: '', url: 'https://crayfis.io/' }
+      { title: 'CRAYFIS Homepage', url: 'https://crayfis.io/' }
     ],
     socialLinks: [
 
     ],
     copy: `<p>Cosmic rays are hitting the Earth’s atmosphere all the time and creating showers of charged particles
     that rain down on us. The most energetic cosmic rays create vast showers spread over huge distances.
-    The Crayfis project uses your cell phone when it is asleep to detect the charged particles from cosmic
+    The CRAYFIS project uses your cell phone when it is asleep to detect the charged particles from cosmic
     ray showers and piece together global maps of cosmic ray activity.</p>`
   },
   {
@@ -69,9 +69,9 @@ export default [
     title: 'Ping-pong Ball Accelerator',
     imageURL: `${rootURL}assets/img/diy-particle-detector.png`,
     projectLinks: [
-      { title: 'Tutorial &mdash; Instructables', url: 'https://www.instructables.com/id/How-to-make-a-macro-particle-accelerator/' },
-      { title: 'Tutorial &mdash; Explore Your Universe', url: 'https://www.exploreyouruniverse.org/how-to-build-and-use-the-salad-bowl-particle-accelerator/' },
-      { title: 'Tutorial &mdash; Rimstar', url: 'https://rimstar.org/science_electronics_projects/ball_cyclotron_electrostatic_accelerator.htm' }
+      { title: 'Tutorial: Instructables', url: 'https://www.instructables.com/id/How-to-make-a-macro-particle-accelerator/' },
+      { title: 'Tutorial: Explore Your Universe', url: 'https://www.exploreyouruniverse.org/how-to-build-and-use-the-salad-bowl-particle-accelerator/' },
+      { title: 'Tutorial: Rimstar', url: 'https://rimstar.org/science_electronics_projects/ball_cyclotron_electrostatic_accelerator.htm' }
     ],
     socialLinks: [
 

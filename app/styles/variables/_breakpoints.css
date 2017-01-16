@@ -8,3 +8,6 @@
   --breakpoint-threshold--large: 64em;        /* Roughly, a max-width for tablets in landscape  */
   --breakpoint-threshold--xLarge: 90em;       /* Someone's probably got a monitor 💻 */
 }
+
+@custom-media --threshold-medium (min-width: 49.125em);
+

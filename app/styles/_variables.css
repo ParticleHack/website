@@ -3,13 +3,15 @@
 @import "./variables/_breakpoints.css";
 @import "./variables/_colors.css";
 @import "./variables/_dimensions.css";
+@import "./variables/_fonts.css";
 @import "./variables/_spacing.css";
 
 :root {
   --min-width__application: var(--breakpoint-threshold--xSmall);
   --max-width__application: var(--breakpoint-threshold--xLarge);
 
-  /* Max width for "framed content" (i.e. non-presentationl elements of the page) */
+  /* Widths for content framed within a conceptual article gid (i.e. non-presentationl elements of the page) */
+  --min-width__article-frame: var(--breakpoint-threshold--small);
   --max-width__article-frame: var(--breakpoint-threshold--medium);
 
   --height__navbar: 4.2rem;
@@ -24,7 +26,7 @@
   --color--markup-link-darkened: var(--theme-color__accent-2--darker);
 
   --font-size__headline: 2.8rem;
-  /*--font-family__headings: 'futura pt', Futura;*/
 
   --box-shadow__item-outline: 0 0 0.25em 0.155em var(--theme-color__accent-1);
 }
+

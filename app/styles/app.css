@@ -1,6 +1,5 @@
 /* Import variables and fonts first so anything else can reference them */
 @import "./_variables.css";
-@import "./_fonts.css";
 
 
 @import "./_elements.css";
