@@ -1,18 +1,32 @@
-<div class="o-flex-grid o-flex-grid--center o-flex-grid--auto">
+<div class="u-fill-height o-article-frame">
+  <div class="o-grid o-grid--align-middle u-fill g-font-alt">
 
-  {{#link-to 'application' class="o-grid-cell g-link-reset"}}
-    <h1 class="c-page__headline g-primary u-text-center">
-      Particle Hack
-    </h1>
-  {{/link-to}}
+    {{#link-to 'application' class="o-grid-cell g-link-reset"}}
 
-  <nav class="o-grid-cell u-ml-auto">
-    <ul class="g-list-reset">
-      <li>
-        {{#link-to 'about' class="g-link-reset"}}ABOUT{{/link-to}}
-      </li>
-    </ul>
-  </nav>
+      <h1 class="o-grid o-grid--align-middle">
+        {{svg-icon class="o-grid-cell u-mr2" fileName="icon-atomic-rings--nucleus"}}
+        <span class="o-grid-cell">Particle Hack</span>
+      </h1>
+
+    {{/link-to}}
+
+    <nav class="o-grid-cell u-ml-auto">
+      <ul class="g-list-reset">
+        <li>
+          {{#link-to
+            'about'
+            class="c-navbar__nav-link
+                   g-link-reset
+                   g-caps
+                   o-color-shifting
+                   o-underline-shifting"
+          }}
+            About
+          {{/link-to}}
+        </li>
+      </ul>
+    </nav>
+  </div>
 
 </div>
 

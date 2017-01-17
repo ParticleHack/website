@@ -1,0 +1,16 @@
+<!--
+  To style colors while still matching the nucleus with the rings, set the `color` rule
+  for the top-level <svg>.
+-->
+<svg id="icons" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 37.91 33.5" aria-labelledby="title-id desc-id" style="color: #000;">
+  <title id="title-id">icon-atomic-rings--nucleus</title>
+  <desc id="desc-id">Atomic Rings</desc>
+  <g id="atomic-rings">
+    <circle id="nucleus" fill="currentcolor" stroke="none" cx="18.96" cy="16.75" r="1.67"/>
+    <g id="rings">
+      <ellipse id="ring_ring--tilt-left" data-name="ring ring--tilt-left" cx="18.95" cy="16.75" rx="5.74" ry="18.38" transform="translate(-5.84 11.72) rotate(-30)" fill="none" stroke="currentcolor" stroke-miterlimit="10" stroke-width="1.15"/>
+      <ellipse id="ring_ring--horizontal" data-name="ring ring--horizontal" cx="18.95" cy="16.75" rx="18.38" ry="5.74" fill="none" stroke="currentcolor" stroke-miterlimit="10" stroke-width="1.15"/>
+      <ellipse id="ring_ring--tilt-right" data-name="ring ring--tilt-right" cx="18.95" cy="16.75" rx="18.38" ry="5.74" transform="translate(-5.03 24.79) rotate(-60)" fill="none" stroke="currentcolor" stroke-miterlimit="10" stroke-width="1.15"/>
+    </g>
+  </g>
+</svg>

@@ -38,17 +38,36 @@
 .g-accent-1--lightest {
   color: var(--theme-color__accent-1--lightest);
 }
+.g-bg-accent-1--lightest {
+  background-color: var(--theme-color__accent-1--lightest);
+}
+
 .g-accent-1--lighter {
   color: var(--theme-color__accent-1--lighter);
 }
+.g-bg-accent-1--lighter {
+  background-color: var(--theme-color__accent-1--lighter);
+}
+
 .g-accent-1 {
   color: var(--theme-color__accent-1);
 }
+.g-bg-accent-1 {
+  background-color: var(--theme-color__accent-1);
+}
+
 .g-accent-1--darker {
   color: var(--theme-color__accent-1--darker);
 }
+.g-bg-accent-1--darker {
+  background-color: var(--theme-color__accent-1--darker);
+}
+
 .g-accent-1--darkest {
   color: var(--theme-color__accent-1--darkest);
+}
+.g-bg-accent-1--darkest {
+  background-color: var(--theme-color__accent-1--darkest);
 }
 
 
@@ -56,17 +75,36 @@
 .g-accent-2--lightest {
   color: var(--theme-color__accent-2--lightest);
 }
+.g-bg-accent-2--lightest {
+  background-color: var(--theme-color__accent-2--lightest);
+}
+
 .g-accent-2--lighter {
   color: var(--theme-color__accent-2--lighter);
 }
+.g-bg-accent-2--lighter {
+  background-color: var(--theme-color__accent-2--lighter);
+}
+
 .g-accent-2 {
   color: var(--theme-color__accent-2);
 }
+.g-bg-accent-2 {
+  background-color: var(--theme-color__accent-2);
+}
+
 .g-accent-2--darker {
   color: var(--theme-color__accent-2--darker);
 }
+.g-bg-accent-2--darker {
+  background-color: var(--theme-color__accent-2--darker);
+}
+
 .g-accent-2--darkest {
   color: var(--theme-color__accent-2--darkest);
+}
+.g-bg-accent-2--darkest {
+  background-color: var(--theme-color__accent-2--darkest);
 }
 
 
@@ -74,15 +112,44 @@
 .g-accent-3--lightest {
   color: var(--theme-color__accent-3--lightest);
 }
+.g-bg-accent-3--lightest {
+  background-color: var(--theme-color__accent-3--lightest);
+}
+
 .g-accent-3--lighter {
   color: var(--theme-color__accent-3--lighter);
 }
+.g-bg-accent-3--lighter {
+  background-color: var(--theme-color__accent-3--lighter);
+}
+
 .g-accent-3 {
   color: var(--theme-color__accent-3);
 }
+.g-bg-accent-3 {
+  background-color: var(--theme-color__accent-3);
+}
+
 .g-accent-3--darker {
   color: var(--theme-color__accent-3--darker);
 }
+.g-bg-accent-3--darker {
+  background-color: var(--theme-color__accent-3--darker);
+}
+
 .g-accent-3--darkest {
   color: var(--theme-color__accent-3--darkest);
+}
+.g-bg-accent-3--darkest {
+  background-color: var(--theme-color__accent-3--darkest);
+}
+
+
+/* -------------- COMMON HELPERS -------------- */
+.g-nearWhite {
+  color: var(--color__nearWhite);
+}
+
+.g-nearBlack {
+  color: var(--color__nearBlack);
 }

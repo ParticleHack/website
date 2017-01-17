@@ -20,7 +20,11 @@
 }
 
 
-.media-greater-than-mobile .p-projects__project-card {
+.media-greater-than-mobile .p-projects__project-card:not(:last-child) {
   width: calc(50% - (var(--spacing__grid-item) * 2));
+}
+
+.media-greater-than-mobile .p-projects__project-card:last-child {
+  width: 100%;
 }
 

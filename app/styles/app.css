@@ -1,5 +1,6 @@
-/* Import variables first so anything else can reference them */
+/* Import variables and fonts first so anything else can reference them */
 @import "./_variables.css";
+
 
 @import "./_elements.css";
 @import "./_garnishes.css";
@@ -11,7 +12,7 @@
 
 
 body {
-  background-color: var(--color__dark--700);
+  background-color: var(--background-color__body);
   color: var(--theme-color__primary);
 }
 
@@ -19,4 +20,7 @@ body > .ember-view {
   height: 100%;
   width: 100%;
   min-width: var(--min-width__application);
+  max-width: var(--max-width__application);
+  margin-left: auto;
+  margin-right: auto;
 }

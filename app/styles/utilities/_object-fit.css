@@ -1,0 +1,10 @@
+/**
+ * Helpers for the CSS `object-fit` property
+ *
+ * @see: https://developer.mozilla.org/en-US/docs/Web/CSS/object-fit
+ */
+.u-fit-contain { object-fit: contain !important }
+.u-fit-cover { object-fit: cover !important }
+.u-fit-fill { object-fit: fill !important }
+.u-fit-none { object-fit: none !important }
+.u-fit-scale-down { object-fit: scale-down !important }

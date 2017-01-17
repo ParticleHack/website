@@ -1,15 +1,22 @@
-{{x-navbar}}
+<header>
+  {{x-navbar
+    class=(concat
+      'c-application__navbar '
+      'u-z1 '
+      media.classNames
+    )
+  }}
+</header>
 
 <main class={{concat
   'c-application__main-content '
-  'o-content-box--lg '
   'u-relative '
-  'u-fill-height '
-  'u-fill-width '
+  'u-fill '
+  'u-z0 '
   (if media.isMobile 'u-ml0 u-mr0 u-pl0 u-pr0 ')
   media.classNames
 }}>
 
-  {{liquid-outlet}}
+  {{liquid-outlet class="u-full-bleed u-overflow-auto"}}
 
 </main>

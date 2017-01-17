@@ -1,2 +1,5 @@
+@import './ui-components/_application.css';
+@import './ui-components/_markup-link.css';
+@import './ui-components/_page.css';
 @import './ui-components/_project-card.css';
 @import './ui-components/_navbar.css';
