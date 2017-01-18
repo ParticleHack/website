@@ -16,11 +16,11 @@
         class="{{concat
           'o-grid-cell '
           'g-list-reset '
-          (if (gt model.projectLinks.length 2) 'o-grid-cell-12 o-grid o-grid--fill')
+          (if (gt model.projectLinks.length 1) 'o-grid-cell-12 o-grid o-grid--fill')
         }}"
       >
         {{#each model.projectLinks as |projectLink|}}
-          <li class="{{if (gt model.projectLinks.length 2) 'o-grid-cell u-mb1 u-flex'}}">
+          <li class="{{if (gt model.projectLinks.length 1) 'o-grid-cell u-mb1 u-flex'}}">
             {{link-badge class="p-project__link-badge o-color-shifting g-font-700" url=projectLink.url title=projectLink.title}}
           </li>
         {{/each}}

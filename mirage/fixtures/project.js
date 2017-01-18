@@ -137,7 +137,7 @@ export default [
     title: 'Cloud Chamber',
     imageURL: 'assets/img/cloud-chamber-particle-detector.png',
     projectLinks: [
-      { title: 'Tutorial &emdash; Instructables', url: 'https://www.instructables.com/id/Cloud-Chamber-Particle-Detector/' }
+      { title: 'Tutorial: Instructables', url: 'https://www.instructables.com/id/Cloud-Chamber-Particle-Detector/' }
     ],
     socialLinks: [
 
