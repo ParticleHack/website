@@ -118,7 +118,7 @@ export default [
     based on open github code repositories and iPython notebooks.</p>`
   },
   {
-    title: 'Lhc@home',
+    title: 'LHC@home',
     imageURL: `${rootURL}assets/img/lhc-at-home.png`,
     projectLinks: [
       { title: 'LHC@home Website', url: 'https://lhcathome.web.cern.ch/' }
