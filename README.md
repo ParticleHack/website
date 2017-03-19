@@ -1,8 +1,8 @@
 # Particle Hack
 
 [![CircleCI Build Status][circle-badge]][circle-badge-url]
-[![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 [![License][license-badge]][license-badge-url]
+[![Dev Dependencies][devDependencies-badge]][devDependencies-badge-url]
 
 _A directory and showcase of ways to participate in particle physics._
 
@@ -59,9 +59,10 @@ Specify what it takes to deploy your app.
   * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
 
 
-[circle-badge]: https://circleci.com/gh/{{USER_NAME}}/{{REPO_NAME}}/tree/master.svg?style=svg&circle-token={{CIRCLE_TOKEN}}
-[circle-badge-url]: https://circleci.com/gh/{{USER_NAME}}/{{REPO_NAME}}/tree/master
-[license-badge]: https://img.shields.io/npm/l/{{REPO_NAME}}.svg
+
+[circle-badge]: https://circleci.com/gh/ParticleHack/website/tree/master.svg?style=svg&circle-token={{CIRCLE_TOKEN}}
+[circle-badge-url]: https://circleci.com/gh/ParticleHack/website/tree/master
+[license-badge]: https://img.shields.io/npm/l/website.svg
 [license-badge-url]: LICENSE
-[devDependencies-badge]: https://img.shields.io/david/dev/{{USER_NAME}}/{{REPO_NAME}}.svg
-[devDependencies-badge-url]: https://david-dm.org/{{USER_NAME}}/{{REPO_NAME}}#info=devDependencies
+[devDependencies-badge]: https://img.shields.io/david/dev/ParticleHack/website.svg
+[devDependencies-badge-url]: https://david-dm.org/ParticleHack/website#info=devDependencies
