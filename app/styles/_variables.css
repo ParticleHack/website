@@ -10,9 +10,16 @@
   --min-width__application: var(--breakpoint-threshold--xSmall);
   --max-width__application: var(--breakpoint-threshold--xLarge);
 
+  /* Widths for content framed within a page (in other words, visible content) */
+  --min-width__page-frame: var(--min-width__application);
+  --max-width__page-frame: calc(
+    (var(--breakpoint-threshold--large) + var(--breakpoint-threshold--xLarge)) / 2
+  );
+
   /* Widths for content framed within a conceptual article gid (i.e. non-presentationl elements of the page) */
   --min-width__article-frame: var(--breakpoint-threshold--small);
   --max-width__article-frame: var(--breakpoint-threshold--medium);
+
 
   --height__navbar: 4.2rem;
 
