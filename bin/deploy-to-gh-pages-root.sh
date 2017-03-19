@@ -8,7 +8,7 @@ REPO_NAME="particlehack.github.io"
 COMMIT=`git log -1 --oneline`
 
 git clone $REPO_URL
-rsync -a build/* $REPO_NAME
+rsync -a dist/* $REPO_NAME
 
 cd $REPO_NAME
 git add --all
