@@ -13,6 +13,13 @@ test:
     # - npm install codeclimate-test-reporter
     # - cat coverage/lcov.info | node_modules/.bin/codeclimate-test-reporter
 
+deployment:
+  staging:
+    branch: master
+    commands:
+      - ember build
+      - ./bin/deploy-to-gh-pages-root.sh
+
 general:
   branches:
     ignore:
