@@ -18,6 +18,8 @@ deployment:
     branch: master
     commands:
       - ember build
+      - git config --global user.email "builds@circleci.com"
+      - git config --global user.name "CircleCI"
       - ./bin/deploy-to-gh-pages-root.sh
 
 general:
